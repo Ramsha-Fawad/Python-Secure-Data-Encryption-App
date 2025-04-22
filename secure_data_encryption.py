@@ -142,7 +142,7 @@ elif choice == "Retrieve Data":
             st.info("No data found!")
         else:
             st.write("Encrypted Data Enteries:")
-            for i, itme in enumerate(user_data):
+            for i, item in enumerate(user_data):
                 st.code(item,language="text")
 
             encrypted_input = st.text_area("Enter Encrypted Text")
